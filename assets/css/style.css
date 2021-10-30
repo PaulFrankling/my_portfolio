@@ -19,6 +19,10 @@ body {
     color: #1B065E !important;
 }
 
+main {
+    padding-top: 150px;
+}
+
 footer {
     bottom: 0;
     width: 100%;
@@ -33,4 +37,8 @@ footer {
 
 .copyright-info {
     color: #000;
+}
+
+.cta-button button {
+    border-radius: 0;
 }
