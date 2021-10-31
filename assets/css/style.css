@@ -6,7 +6,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar-toggler i {
@@ -16,11 +16,25 @@ body {
 
 .nav-item a {
     font-size: 25px;
-    color: #1B065E !important;
+    color: #000 !important;
+}
+
+.nav-item a:hover {
+    color: #BA5A31 !important;
 }
 
 main {
     padding-top: 150px;
+}
+
+.cta-button button {
+    border-radius: 0;
+    background-color: #BA5A31;
+    color: #FFF;
+}
+
+.cta-button button i {
+    padding: 0 5px 0 5px;
 }
 
 footer {
@@ -32,13 +46,13 @@ footer {
 }
 
 .social-media-links i {
-    color: #1B065E;
+    color: #000;
+}
+
+.social-media-links i:hover {
+    color: #BA5A31;
 }
 
 .copyright-info {
     color: #000;
-}
-
-.cta-button button {
-    border-radius: 0;
 }
