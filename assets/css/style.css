@@ -1,4 +1,11 @@
 body {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.index-body {
     background: url(../images/desk.jpg) no-repeat center center fixed;
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;
@@ -6,7 +13,16 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Titillium Web', sans-serif;
+}
+
+.portfolio-body {
+    background: url(../images/desk-two.jpg) no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-blend-mode: lighten;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .navbar-toggler i {
@@ -24,23 +40,47 @@ body {
 }
 
 main {
+    flex: 1 0 auto;
+}
+
+.index-main {
     padding-top: 150px;
 }
 
-.cta-button button {
+.cta-button a {
     border-radius: 0;
     background-color: #BA5A31;
     color: #FFF;
 }
 
-.cta-button button i {
+.cta-button a i {
     padding: 0 5px 0 5px;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+    padding: 10px 10px 0 10px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-img {
+    height: 14.5rem;
+    object-fit: cover;
+    border-radius: 0;
+    filter: brightness(75%);
+}
+
+.card-img:hover {
+    filter: brightness(100%);
 }
 
 footer {
     bottom: 0;
     width: 100%;
-    position: fixed;
     margin-bottom: 10px;
     font-size: 30px;
 }
@@ -56,3 +96,9 @@ footer {
 .copyright-info {
     color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+    .index-main {
+      padding-top: 50px;
+    }
+  }
