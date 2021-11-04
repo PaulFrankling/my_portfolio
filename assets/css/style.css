@@ -71,7 +71,7 @@ main {
     height: 14.5rem;
     object-fit: cover;
     border-radius: 0;
-    filter: brightness(80%);
+    filter: brightness(90%);
 }
 
 .card-img:hover {
