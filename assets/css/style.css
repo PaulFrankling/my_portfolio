@@ -71,11 +71,20 @@ main {
     height: 14.5rem;
     object-fit: cover;
     border-radius: 0;
-    filter: brightness(75%);
+    filter: brightness(80%);
 }
 
 .card-img:hover {
     filter: brightness(100%);
+}
+
+.card button {
+    color: #000;
+}
+
+.card button:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 footer {
