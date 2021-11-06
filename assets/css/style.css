@@ -74,12 +74,21 @@ main {
     filter: brightness(90%);
 }
 
+.card-body {
+    margin: -12.5px -10px 0 -10px;
+}
+
 .card-img:hover {
     filter: brightness(100%);
 }
 
 .card button {
     color: #000;
+}
+
+.info-list {
+    padding-left: 15px;
+    margin: 0;
 }
 
 .card button:hover {
