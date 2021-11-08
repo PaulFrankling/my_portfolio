@@ -1,6 +1,6 @@
 body {
     background: url(../images/desk.jpg) no-repeat center center fixed;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.65);
     background-blend-mode: lighten;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,18 +34,23 @@ main {
     padding-top: 75px;
 }
 
+.site-greeting h1 {
+    font-size: 75px;
+}
+
+.site-greeting h5 {
+    margin-left: 5px;
+}
+
 .cta-button a {
     border-radius: 0;
     background-color: #D64045;
     color: #FFF;
+    margin-left: 5px;
 }
 
 .cta-button a i {
     padding: 0 5px 0 5px;
-}
-
-.technologies i {
-    padding-right: 5px;
 }
 
 .fa-html5 {
@@ -74,6 +79,14 @@ main {
 
 .fa-database {
     color: #00758F;
+}
+
+.fa-aws {
+    color: #FF9900;
+}
+
+.fa-stripe {
+    color: #008CDD;
 }
 
 .fa-git-alt {
@@ -113,9 +126,19 @@ main {
     color: #000;
 }
 
+.accordion .collapse {
+    height: 210px;
+}
+
 .info-list {
     padding-left: 15px;
+    font-size: 14px;
     margin: 0;
+}
+
+.tech-icons i {
+    font-size: 22px;
+    padding: 2.5px 5px 2.5px 0;
 }
 
 .card button:hover {
