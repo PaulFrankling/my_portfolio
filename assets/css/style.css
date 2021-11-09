@@ -127,7 +127,7 @@ main {
 }
 
 .accordion .collapse {
-    height: 210px;
+    height: 200px;
 }
 
 .info-list {
@@ -137,13 +137,21 @@ main {
 }
 
 .tech-icons i {
-    font-size: 22px;
+    font-size: 20px;
     padding: 2.5px 5px 2.5px 0;
 }
 
 .card button:hover {
     color: #000;
     text-decoration: none;
+}
+
+.animate-arrow {
+    transition: 0.6s;
+}
+
+.rotate {
+    transform:rotate(180deg);
 }
 
 footer {
@@ -168,5 +176,11 @@ footer {
 @media only screen and (max-width: 600px) {
     .index-main {
       padding-top: 50px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .accordion .collapse {
+      height: 180px;
     }
   }
