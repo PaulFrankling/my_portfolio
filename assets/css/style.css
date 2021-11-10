@@ -138,7 +138,7 @@ main {
 
 .tech-icons i {
     font-size: 20px;
-    padding: 2.5px 5px 2.5px 0;
+    padding: 2px 2px 2px 0;
 }
 
 .card button:hover {
@@ -182,5 +182,11 @@ footer {
 @media only screen and (max-width: 600px) {
     .accordion .collapse {
       height: 180px;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .accordion .collapse {
+      height: 200px;
     }
   }
