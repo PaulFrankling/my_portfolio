@@ -19,7 +19,7 @@ body {
 @keyframes transitionInLeft {
     from {
         opacity: 0;
-        transform: translateX(-500px);
+        transform: translateX(-350px);
     }
     to {
         opacity: 1;
