@@ -12,6 +12,21 @@ body {
     flex-direction: column;
 }
 
+.transition-in-left {
+    animation: transitionInLeft 2s;
+}
+
+@keyframes transitionInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 .navbar-toggler i {
     font-size: 30px;
     color: #000;
@@ -32,10 +47,6 @@ main {
 
 .index-main {
     padding-top: 75px;
-}
-
-.site-greeting h1 {
-    font-size: 75px;
 }
 
 .site-greeting h5 {
