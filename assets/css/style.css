@@ -12,81 +12,6 @@ body {
     flex-direction: column;
 }
 
-.transition-in-left {
-    animation: transitionInLeft 2s;
-}
-
-@keyframes transitionInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-350px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.transition-in-bottom-1 {
-    animation: transitionInBottom 1s;
-}
-
-@keyframes transitionInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-.transition-in-bottom-2 {
-    animation: transitionInBottom 2s;
-}
-
-@keyframes transitionInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-.transition-in-bottom-3 {
-    animation: transitionInBottom 3s;
-}
-
-@keyframes transitionInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-.transition-in-bottom-4 {
-    animation: transitionInBottom 4s;
-}
-
-@keyframes transitionInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 .navbar-toggler i {
     font-size: 30px;
     color: #000;
@@ -244,6 +169,7 @@ footer {
     color: #000;
 }
 
+
 @media only screen and (max-width: 600px) {
     .index-main {
       padding-top: 50px;
@@ -261,3 +187,79 @@ footer {
       height: 200px;
     }
   }
+
+
+.transition-in-left {
+    animation: transitionInLeft 2s;
+}
+
+@keyframes transitionInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-350px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.transition-in-bottom-1 {
+    animation: transitionInBottom 1s;
+}
+
+@keyframes transitionInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.transition-in-bottom-2 {
+    animation: transitionInBottom 2s;
+}
+
+@keyframes transitionInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.transition-in-bottom-3 {
+    animation: transitionInBottom 3s;
+}
+
+@keyframes transitionInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.transition-in-bottom-4 {
+    animation: transitionInBottom 4s;
+}
+
+@keyframes transitionInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
