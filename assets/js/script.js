@@ -26,5 +26,6 @@ let showSummary = function (target, message, index, interval) {
 }
 
 $(function () {
-    showSummary("#summary", "This portfolio was established whilst studying Full Stack Development at the Code Institute.", 0, 20);
+    showSummary("#summary", 
+    "This portfolio was established whilst studying Full Stack Development at the Code Institute.", 0, 20);
 });
