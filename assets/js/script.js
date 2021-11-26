@@ -1,3 +1,4 @@
+// rotation for arrow icons on click of accordion dropdown
 document.getElementById('btn-one').addEventListener('click', function () {
     var icon = this.querySelector('.arrow-one i.fas');
     icon.classList.toggle('rotate');
