@@ -2,14 +2,16 @@ body {
     background: url(../images/desk.jpg) no-repeat center center fixed;
     background-color: rgba(255, 255, 255, 0.65);
     background-blend-mode: lighten;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: 'Titillium Web', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .navbar-toggler i {
@@ -27,7 +29,9 @@ body {
 }
 
 main {
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
 }
 
 .index-main {
@@ -103,15 +107,19 @@ main {
     margin-bottom: 20px;
     padding: 10px 10px 0 10px;
     border-radius: 0;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
      rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .card-img {
     height: 14.5rem;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 0;
-    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+            filter: brightness(90%);
 }
 
 .card-body {
@@ -119,7 +127,8 @@ main {
 }
 
 .card-img:hover {
-    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
 }
 
 .card button {
@@ -149,11 +158,15 @@ main {
 /* accordion dropdown icons */
 
 .animate-arrow {
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
 }
 
 .rotate {
-    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+        -ms-transform:rotate(180deg);
+            transform:rotate(180deg);
 }
 
 /* footer */
@@ -200,78 +213,119 @@ footer {
 /* keyframes for home page */
 
 .transition-in-left {
-    animation: transitionInLeft 2s;
+    -webkit-animation: transitionInLeft 2s;
+            animation: transitionInLeft 2s;
+}
+
+@-webkit-keyframes transitionInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(-350px);
+                transform: translateX(-350px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+    }
 }
 
 @keyframes transitionInLeft {
     from {
         opacity: 0;
-        transform: translateX(-350px);
+        -webkit-transform: translateX(-350px);
+                transform: translateX(-350px);
     }
     to {
         opacity: 1;
-        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
     }
 }
 
 /* keyframes for portfolio page cards */
 
 .transition-in-bottom-1 {
-    animation: transitionInBottom 1s;
+    -webkit-animation: transitionInBottom 1s;
+            animation: transitionInBottom 1s;
+}
+
+@-webkit-keyframes transitionInBottom {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
 }
 
 @keyframes transitionInBottom {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
     to {
         opacity: 1;
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 }
 
 .transition-in-bottom-2 {
-    animation: transitionInBottom 2s;
+    -webkit-animation: transitionInBottom 2s;
+            animation: transitionInBottom 2s;
 }
 
 @keyframes transitionInBottom {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
     to {
         opacity: 1;
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 }
 
 .transition-in-bottom-3 {
-    animation: transitionInBottom 3s;
+    -webkit-animation: transitionInBottom 3s;
+            animation: transitionInBottom 3s;
 }
 
 @keyframes transitionInBottom {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
     to {
         opacity: 1;
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 }
 
 .transition-in-bottom-4 {
-    animation: transitionInBottom 4s;
+    -webkit-animation: transitionInBottom 4s;
+            animation: transitionInBottom 4s;
 }
 
 @keyframes transitionInBottom {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
     }
     to {
         opacity: 1;
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 }
