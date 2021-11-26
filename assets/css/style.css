@@ -45,6 +45,8 @@ main {
     margin-left: 5px;
 }
 
+/* accordion icon colours */
+
 .cta-button a i {
     padding: 0 5px 0 5px;
 }
@@ -92,6 +94,8 @@ main {
 .fa-github {
     color: #171515;
 }
+
+/* project cards */
 
 .card {
     margin: 0 auto;
@@ -142,6 +146,8 @@ main {
     text-decoration: none;
 }
 
+/* accordion dropdown icons */
+
 .animate-arrow {
     transition: 0.6s;
 }
@@ -149,6 +155,8 @@ main {
 .rotate {
     transform:rotate(180deg);
 }
+
+/* footer */
 
 footer {
     bottom: 0;
@@ -169,6 +177,7 @@ footer {
     color: #000;
 }
 
+/* media queries */
 
 @media only screen and (max-width: 600px) {
     .index-main {
@@ -188,6 +197,7 @@ footer {
     }
   }
 
+/* keyframes for home page */
 
 .transition-in-left {
     animation: transitionInLeft 2s;
@@ -203,6 +213,8 @@ footer {
         transform: translateX(0px);
     }
 }
+
+/* keyframes for portfolio page cards */
 
 .transition-in-bottom-1 {
     animation: transitionInBottom 1s;
